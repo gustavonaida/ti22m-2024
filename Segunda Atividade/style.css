@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.cabecalho{
+    text-align: center;
+    font-size: 0.8em;
+
+}
+
+
+.titulo {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .versiculo{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+    text-align: center;
+    
+  }
+  
+
+.texto{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+.importante{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+
+}
+
+.desafio{
+text-align: center;
+font-style: italic;
+border: 2px solid gray;
+background-color: gray;
+}
