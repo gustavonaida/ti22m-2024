@@ -1,0 +1,10 @@
+.borda{
+    border:2px solid;
+    font-size: 2em;
+    text-align: center;
+    background-color: yellow;
+}
+
+.texto{
+    text-align: center;
+}
