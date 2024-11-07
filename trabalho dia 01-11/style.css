@@ -5,7 +5,6 @@
 
 body{
     min-height: 100vh;
-    background-image: url("images/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
@@ -19,6 +18,7 @@ nav{
 
 nav ul{
     width: 100%;
+    color: white;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -27,6 +27,9 @@ nav ul{
 
 nav li{
     height: 60px;
+
+    text-decoration: none;
+    
 }
 
 nav li:first-child{
@@ -42,5 +45,76 @@ nav a{
 }
 
 nav a:hover{
-    color: #dcdcdc;
+    color: white;
+    
+}
+
+
+#sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 280px;
+    background-color: white;
+    backdrop-filter: blur(10px);
+
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    z-index: 999;
+}
+
+.icon{
+    fill: #fff;
+}
+
+.logotipo{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.hideMobile{
+    color: white;
+}
+
+.content{    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90vh;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.content p{
+    max-width: 400px;
+}
+
+.cima{
+
+    margin-top: 0;
+    background-color: green;
+    width: 100%;
+
+}
+
+
+@media (max-width: 767px){
+    
+    .hideMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+
+    .hideDesktop{
+        display: none;
+    }
+    
 }
